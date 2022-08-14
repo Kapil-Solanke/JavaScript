@@ -1,0 +1,1 @@
+db.items.insertMany([{name: "apple",price:123408,rating:5}, {name: "moto",price:16000,rating:3.8,issmall:true}])

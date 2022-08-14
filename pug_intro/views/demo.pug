@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#{title}</title>
+    <!-- <title>Using pure html in pug file</title> -->
+    style
+        include ../static/style.css
+</head>
+
+<body>
+    <h1>Welcome to my website</h1>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+    <!--    <p>
+        | Method 1 of showing in website 
+        | #{content}
+        | Method 2 of showing in website 
+        | #{'This is my first website using pug'}
+    </p> -->    
+    <form action="/" id="contact">  
+        <h2>Fill form for Internship Registration</h2>
+        <input  type="text" name="name" id="name" placeholder="Enter your name">
+            <input  type="number" name="name" id="age" placeholder="Enter your age">
+        <input  type="text" name="name" id="gender" placeholder="Enter your gender">
+        <textarea name="name" id="discr" cols="30" rows="5" placeholder="Tell about yourselves"></textarea>
+    </form>
+</div>
+</body>
+
+</html>

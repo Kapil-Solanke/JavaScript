@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Manrope:wght@200&display=swap');
+
+*{
+        font-style: italic;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    font-family: 'Lacquer', cursive;
+    background-color: black;    
+}
+#navbar a:hover{
+    color: red;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+li{
+    padding: 18px 92px;
+    list-style: none;
+    font-family: 'Lacquer', cursive;
+    font-size: 1.3rem;
+}
+a{
+    text-decoration:none;
+    color: white;
+}
+#intro{
+    background:center/cover no-repeat url(https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80);
+    /* font-weight: bold;    */
+    color :rgba(254, 91, 15, 0.936);
+    opacity:90%;
+    display:flex;   
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;    
+    height: 400px;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Lacquer', cursive;
+    font-size:40px;
+}
+.small{
+    font-size: 25px ;
+}
+#work{
+    height: 10px;
+    color: rgb(18 227 48 / 94%);
+    background: #c32a62;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;    
+    height: 200px;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Lacquer', cursive;
+    font-size:40px;
+    font-family: 'Manrope', sans-serif;
+}
+#achieve{
+    height: 200px;
+    background-color: #4c94b3;
+    font-size: 23px;
+}

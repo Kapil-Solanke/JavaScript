@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div >
+        <u id="name">
+            <li class="container">Item-1</li>
+            <li class="container">Item-2</li>
+            <li >Item-3</li>
+            <li id="description">Item-4</li>
+            <li class="container">Item-5</li>
+            <li>Item-6</li>
+            <li>Item-7</li>
+        </u>
+    </div>
+    <!-- <script src="index1.js"> </script> -->
+    <script>
+    let a= document.getElementById('name');//returns element with id="name"
+    console.log(a);
+    let b=document.getElementsByClassName('container'); //returns all elements with class name 'container'
+    console.log(b);
+
+    let c=document.querySelector('.container'); //returns first element with class name 'container'
+    console.log(c);
+    let d=document.querySelectorAll('#a>li');
+    console.log(d);
+    </script>
+
+</body>
+</html>
